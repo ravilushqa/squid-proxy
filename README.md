@@ -11,7 +11,7 @@ go everywhere through an explicit HTTP(S) proxy.
 First, you [pull it](https://hub.docker.com/r/ravilushqa/squid-proxy):
 
 ```bash
-$ docker pull ravilushqa/squid-proxy:0.1
+$ docker pull ravilushqa/squid-proxy:0.2
 ```
 
 Then, you run it:
