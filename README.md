@@ -19,7 +19,7 @@ Then, you run it:
 ```
 $ docker run --name proxy -d --restart=always --publish 8081:3128 \
   -e USERNAME=jeffrey -e PASSWORD=swordfish \
-  yegor256/squid-proxy:0.1
+  ravilushqa/squid-proxy:0.2
 ```
 
 Now you can connect to `localhost:8081` with `jeffrey:swordfish` credentials.
