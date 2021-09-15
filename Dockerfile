@@ -21,15 +21,15 @@
 # SOFTWARE.
 
 FROM ubuntu:18.04
-MAINTAINER Yegor Bugayenko <yegor256@gmail.com>
-LABEL Description="Squid forward proxy with authorization" Vendor="Yegor Bugayenko" Version="0.1"
+MAINTAINER Ravil Galaktionov <r.galaktionov@gmail.com>
+LABEL Description="Multiarch squid forward proxy with authorization" Vendor="Ravil Galaktionov" Version="0.2"
 
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -y
 RUN apt-get install -y squid
 RUN apt-get install -y apache2-utils
-RUN RUN apt-get clean
+RUN apt-get clean
 
 COPY entry.sh /
 COPY squid.conf /etc/squid/squid.conf
