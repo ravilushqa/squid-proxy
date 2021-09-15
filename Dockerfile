@@ -21,7 +21,7 @@
 # SOFTWARE.
 
 FROM ubuntu:18.04
-MAINTAINER Ravil Galaktionov <r.galaktionov@gmail.com>
+MAINTAINER Ravil Galaktionov <galaktionov.r@gmail.com>
 LABEL Description="Multiarch squid forward proxy with authorization" Vendor="Ravil Galaktionov" Version="0.2"
 
 ENV DEBIAN_FRONTEND=noninteractive
